@@ -12,7 +12,7 @@ public class DemoApplication {
 	public class Controller{
 		@GetMapping("/hello")
 		public String getMessage(){
-			return "hello world from docker hub container v2";
+			return "hello world from docker hub container v3";
 		}
 	}
 
