@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-EXPOSE 9003
+EXPOSE 8080
 
 ADD target/spring-boot-ci-cd-demo.jar spring-boot-ci-cd-demo.jar
 
