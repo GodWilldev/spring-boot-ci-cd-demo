@@ -55,4 +55,4 @@ jobs:
         run: kubectl apply -f k8s-service.yaml
 
       - name: get nodes
-        run: kubectl get nodes -o wide status deployment/python-example
+        run: kubectl get nodes -o wide
